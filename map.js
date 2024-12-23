@@ -40,10 +40,10 @@ fetch('data.json')
         // إضافة المناطق
         data.areas.forEach(area => {
             const polygon = L.polygon(area.coordinates, {
-                color: '#34495E',
-                weight: 3.5,
+                color: '#000',
+                weight: 3,
                 fillOpacity: 0,
-                opacity: 0.8,
+                opacity: 0.6,
                 dashArray: '',
                 smoothFactor: 1.5,
                 lineCap: 'round',
