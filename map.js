@@ -10,9 +10,8 @@ const map = L.map('map', {
 L.control.zoom({
     position: 'topright'
 }).addTo(map);
-
 // إضافة طبقة الخريطة الأساسية
-const baseLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}.png', {
+const baseLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
     maxZoom: 12,
     minZoom: 2,
     attribution: '© OpenStreetMap, © CartoDB',
