@@ -43,8 +43,13 @@
       "name": "الرياض",
       "coordinates": [24.7136, 46.6753],
       "type": "city",
-      "population": "7.6 مليون",
-      "url": "https://www.google.com/maps/place/Riyadh"
+      "population": "7.6 مليون"
+    },
+    {
+      "name": "الحنو",
+      "coordinates": [23.7136, 46.6753],
+      "type": "city",
+      "population": "7.6 مليون"
     },
     {
       "name": "مكة المكرمة",
