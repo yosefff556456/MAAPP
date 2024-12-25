@@ -3,7 +3,7 @@ const map = L.map('map', {
     minZoom: 2,
     maxZoom: 12,
     zoomControl: false,
-    preferCanvas: false // true
+    preferCanvas: true // true
 }).setView([24.7136, 46.6753], 6);
 
 // إضافة أزرار التحكم في التكبير في الجانب الأيمن
@@ -15,7 +15,7 @@ const baseLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/servi
     maxZoom: 12,
     minZoom: 2,
     attribution: '© OpenStreetMap, © CartoDB',
-    updateWhenIdle: false, //true
+    updateWhenIdle: true, //true
     keepBuffer: 2
 }).addTo(map);
 
